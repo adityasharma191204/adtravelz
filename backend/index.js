@@ -28,9 +28,9 @@ mongoose
 
 // Middleware
 const allowedOrigins = [
-  "https://adtravelz-frontend.onrender.com",
-  "http://localhost:5173",
-  "https://adtravelz-frontend.onrender.com",
+"https://trips-travel.vercel.app",
+"https://adtravelz-frontend.onrender.com",
+  // "http://127.0.0.1:5173",
 ];
 app.use(
   cors({
